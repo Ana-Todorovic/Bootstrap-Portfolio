@@ -1,0 +1,78 @@
+h2.container{
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 80%;
+    width: 90%;
+    text-align:center;
+    margin:0%;
+    z-index: -1;
+  }
+  header{
+      margin-left: 20%;
+      width:15%;
+  }
+  body{
+    background: hsla(0,0%,0%,0.2);
+    padding-bottom: 0%;
+  }
+  .container{
+    width: 60%;
+    height: 100%;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: small;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  form{
+      margin-top: 10%;
+  }
+  #basic_portfolio{
+      border-block-end: 1px solid #dddddd;
+      position: absolute;
+      color: #4aaaa5;
+  }
+  p{
+    letter-spacing: normal;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+  img{
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin-top:10%;
+    margin-bottom: 5%;
+  }
+  footer{
+      text-align: center;
+      color: #ffffff;
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      background: #666666;
+      padding-bottom:5%;
+      border-block-start: 10px solid #4aaaa5;
+  }
+  .btn{
+    background: #4aaaa5;
+    color: #ffffff;
+    border: 1px solid #cccccc;
+  }
+  .cards{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: flex-start;
+      padding-top: 10%;
+  }
+  .cards img{
+    margin: 5%;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px hsla(0,0,0,0.3); 
+    width: 50%;
+  }
+  .cards a{
+    width: 30%;
+  }
